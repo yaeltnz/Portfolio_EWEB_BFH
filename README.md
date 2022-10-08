@@ -1,6 +1,6 @@
 # Portfolio_EWEB_BFH
 
-**_ English _**
+### **_ English _**
 
 Description of the project
 
@@ -16,7 +16,8 @@ In the third section, on the other hand, information from schooling will be ente
 Finally, the last block will put the projects performed and their respective external links.
 
 All sections were hand-drawn by the author. The drawings have been uploaded to the "Pictures" folder.
-**_ Deutsch_**
+
+### **_ Deutsch_**
 
 Beschreibung des Projekts
 
