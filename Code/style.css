@@ -1,15 +1,27 @@
 .circular--square {
   border-radius: 50%;
-  width: 200px;
-  height: 200px;
+  width: 150px;
+  height: 150px;
   object-fit: cover;
 }
-body {
-  background-color: lightblue;
+.session1 {
+  text-align: center;
+}
+
+@keyframes glowing {
+  0% {
+    background-position: 0 0;
+  }
+  50% {
+    background-position: 400% 0;
+  }
+  100% {
+    background-position: 0 0;
+  }
 }
 
 body {
-  background: hsl(0, 7%, 97%);
+  background: hsl(191, 57%, 89%);
 }
 /* customizable snowflake styling */
 .snowflake {
