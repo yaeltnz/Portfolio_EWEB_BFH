@@ -1,6 +1,13 @@
-img {
+.circular--square {
   border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
 }
+body {
+  background-color: lightblue;
+}
+
 body {
   background: hsl(0, 7%, 97%);
 }
