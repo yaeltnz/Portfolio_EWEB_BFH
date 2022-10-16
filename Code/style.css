@@ -7,6 +7,40 @@
 .session1 {
   text-align: center;
 }
+ul {
+  padding: 0;
+  display: block;
+  margin: 23px auto;
+  width: fit-content;
+}
+
+li {
+  display: block;
+  height: 45px;
+  width: 610px;
+  background: linear-gradient(45deg, #ffee54, #ff00ca);
+  border-radius: 8px;
+  animation-name: animateIn;
+  animation-duration: 1200ms;
+  animation-delay: calc(var(--animation-order) * 100ms);
+  animation-fill-mode: both;
+  animation-timing-function: ease-in-out;
+}
+
+li + li {
+  margin-top: 16px;
+}
+
+@keyframes animateIn {
+  0% {
+    opacity: 0;
+    transform: scale(0.6) translateY(-8px);
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
 
 @keyframes glowing {
   0% {
