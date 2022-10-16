@@ -3,6 +3,7 @@
   width: 150px;
   height: 150px;
   object-fit: cover;
+  margin-top: 45px;
 }
 .session1 {
   text-align: center;
@@ -30,7 +31,6 @@ li {
 li + li {
   margin-top: 16px;
 }
-
 @keyframes animateIn {
   0% {
     opacity: 0;
@@ -82,13 +82,13 @@ body {
   border: 2px solid #000;
   transition: 0.5s;
 }
-.container:hover .skills {
+/*.container:hover .skills {
   opacity: 0.05;
 }
 .container .skills:hover {
   opacity: 1;
   transform: scale(1.1);
-}
+}*/
 .container .skills:before {
   content: "";
   position: absolute;
