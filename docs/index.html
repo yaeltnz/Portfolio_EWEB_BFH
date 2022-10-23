@@ -18,7 +18,6 @@
             id="fotoprofilo"
           />
         </div>
-        <button class="glow-on-hover" type="button">Hélène</button>
         <div class="presentation">
           <p>
             Hello Hello I'm Hélène Ambrosioni
@@ -30,7 +29,7 @@
         </div>
       </div>
       <div class="section">
-        <div class="Work">
+        <div class="Work description">
           <ul>
             <h2>Work</h2>
             <li style="--animation-order: 1">
@@ -61,7 +60,7 @@
         <script>
           /*https://www.youtube.com/watch?v=bvUMzFMiIbk*/
         </script>
-        <div class="container">
+        <div class="container third_section">
           <h2>Languages</h2>
           <div class="skills">
             <span class="Name">Italian</span>
@@ -94,7 +93,54 @@
         </div>
       </div>
       <div class="section">
-        <div class="snowflakes" aria-hidden="true">
+        <div id="first_section_particles" class="snowflakes" aria-hidden="true">
+          <div class="snowflake flower">❁</div>
+          <div class="snowflake flower">❁</div>
+          <div class="snowflake flower">❁</div>
+          <div class="snowflake flower">❁</div>
+          <div class="snowflake flower">❁</div>
+          <div class="snowflake flower">❁</div>
+          <div class="snowflake flower">❁</div>
+          <div class="snowflake flower">❁</div>
+          <div class="snowflake flower">❁</div>
+          <div class="snowflake flower">❁</div>
+        </div>
+
+        <div
+          id="second_section_particles"
+          class="snowflakes"
+          aria-hidden="true"
+        >
+          <div class="snowflake sun">☀</div>
+          <div class="snowflake sun">☀</div>
+          <div class="snowflake sun">☀</div>
+          <div class="snowflake sun">☀</div>
+          <div class="snowflake sun">☀</div>
+          <div class="snowflake sun">☀</div>
+          <div class="snowflake sun">☀</div>
+          <div class="snowflake sun">☀</div>
+          <div class="snowflake sun">☀</div>
+          <div class="snowflake sun">☀</div>
+        </div>
+
+        <div id="third_section_particles" class="snowflakes" aria-hidden="true">
+          <div class="snowflake">🍂</div>
+          <div class="snowflake">🍂</div>
+          <div class="snowflake">🍂</div>
+          <div class="snowflake">🍂</div>
+          <div class="snowflake">🍂</div>
+          <div class="snowflake">🍂</div>
+          <div class="snowflake">🍂</div>
+          <div class="snowflake">🍂</div>
+          <div class="snowflake">🍂</div>
+          <div class="snowflake">🍂</div>
+        </div>
+
+        <div
+          id="fourth_section_particles"
+          class="snowflakes"
+          aria-hidden="true"
+        >
           <div class="snowflake">❅</div>
           <div class="snowflake">❅</div>
           <div class="snowflake">❆</div>
@@ -108,5 +154,60 @@
         </div>
       </div>
     </div>
+    <script
+      src="https://code.jquery.com/jquery-3.6.1.min.js"
+      integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ="
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      let body = document.body;
+      let html = document.documentElement;
+      let scrollAmount = 0;
+      let height = Math.max(
+        body.scrollHeight,
+        body.offsetHeight,
+        html.clientHeight,
+        html.scrollHeight,
+        html.offsetHeight
+      );
+      let sectionHeight = height / 4;
+
+      document.addEventListener("wheel", (event) => {
+        let amount = event.deltaY;
+        scrollAmount +=
+          scrollAmount + amount >= 0 && scrollAmount + amount <= height
+            ? amount
+            : 0;
+
+        if (scrollAmount < sectionHeight * 1) {
+          $("#first_section_particles").show();
+          $("#second_section_particles").hide();
+          $("#third_section_particles").hide();
+          $("#fourth_section_particles").hide();
+        } else if (scrollAmount < sectionHeight * 2) {
+          $("#first_section_particles").hide();
+          $("#second_section_particles").show();
+          $("#third_section_particles").hide();
+          $("#fourth_section_particles").hide();
+        } else if (scrollAmount < sectionHeight * 3) {
+          $("#first_section_particles").hide();
+          $("#second_section_particles").hide();
+          $("#third_section_particles").show();
+          $("#fourth_section_particles").hide();
+        } else {
+          $("#first_section_particles").hide();
+          $("#second_section_particles").hide();
+          $("#third_section_particles").hide();
+          $("#fourth_section_particles").show();
+        }
+      });
+
+      $(document).ready(function () {
+        $("#first_section_particles").show();
+        $("#second_section_particles").hide();
+        $("#third_section_particles").hide();
+        $("#fourth_section_particles").hide();
+      });
+    </script>
   </body>
 </html>
