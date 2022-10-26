@@ -5,6 +5,7 @@ body {
 .session1 {
   text-align: center;
 }
+
 .circular--square {
   border-radius: 50%;
   width: 150px;
@@ -25,6 +26,27 @@ body {
   overflow: hidden;
   border: 2px solid #000;
 }
+.icon1 {
+  font-size: 32px;
+  color: black;
+}
+
+.icon2 {
+  font-size: 32px;
+  color: black;
+}
+.icon3 {
+  font-size: 32px;
+  color: black;
+}
+.icon4 {
+  font-size: 32px;
+}
+.icon5 {
+  font-size: 32px;
+  color: black;
+}
+
 .Work {
   padding-top: 50px;
 }
@@ -33,15 +55,22 @@ body {
   color: rgb(255, 255, 255);
   position: relative;
   display: flex;
-  margin: 50px auto;
-  padding: 24px 10px 18px;
+  margin: 1px auto;
+  padding: 0px 10px 20px;
   background: linear-gradient(#616161 0%, #333 10%, #222);
   border-radius: 8px;
   overflow: hidden;
   border: 2px solid #000;
 }
+.description:hover li {
+  opacity: 0.05;
+}
+.description li:hover {
+  opacity: 1;
+  transform: scale(1.1);
+}
 ul {
-  padding: 0;
+  padding-top: 30px;
   display: block;
   margin: 23px auto;
   width: fit-content;
@@ -50,7 +79,7 @@ ul {
 
 li {
   display: block;
-  margin-top: 50px;
+  margin-top: 0px;
   height: 45px;
   width: 610px;
   background: linear-gradient(45deg, #ffee54, #ff00ca);
@@ -98,13 +127,12 @@ li + li {
   padding: 0;
   display: block;
   margin: 50px auto;
-  position: relative;
   width: 500px;
   justify-content: center;
   align-items: center;
 }
-h2 {
-  width: 150px;
+/*h2 {
+  width: 20px;
   color: rgb(255, 255, 255);
   position: relative;
   display: flex;
@@ -114,7 +142,26 @@ h2 {
   border-radius: 8px;
   overflow: hidden;
   border: 2px solid #000;
+}*/
+.section h2 {
+  width: 85px;
+  color: rgb(255, 255, 255);
+  position: relative;
+  display: flex;
+  margin: 30px 650;
+  padding: 15px 10px 15px;
+  background: linear-gradient(#616161 0%, #333 10%, #222);
+  border-radius: 8px;
+  overflow: hidden;
+  border: 2px solid #000;
 }
+.second_section {
+  padding-top: 30px;
+}
+.third_section {
+  padding-top: 50px;
+}
+
 .container h2 {
   width: 150px;
   color: rgb(255, 255, 255);
@@ -130,7 +177,7 @@ h2 {
 .container .skills {
   position: relative;
   display: flex;
-  margin: 20px 0;
+  margin: 15px 0;
   padding: 24px 10px 18px;
   background: linear-gradient(#616161 0%, #333 10%, #222);
   border-radius: 8px;
@@ -365,6 +412,6 @@ h2 {
   animation-delay: 3s, 1.5s;
 }
 
-.third_section {
+/*.third_section {
   padding-top: 50px;
-}
+}*/
