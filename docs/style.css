@@ -432,6 +432,7 @@ a:hover {
   background-color: transparent;
   text-decoration: underline;
 }
+
 .icons:hover a {
   opacity: 0.05;
 }
