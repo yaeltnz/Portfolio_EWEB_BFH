@@ -175,7 +175,63 @@
         </div>
       </div>
       <div class="section">
-        <div>Projekte</div>
+        <div class="project">
+          <div class="content">
+            <div class="titolo">Primo progetto</div>
+            <div class="descrizione">
+              <p>
+                Qui devo scrivere tutta la descrizione del mio lavoro che ho
+                fatto durante la BFH
+              </p>
+            </div>
+          </div>
+          <div class="content">
+            <div class="titolo">Primo progetto</div>
+            <div class="descrizione">
+              <p>
+                Qui devo scrivere tutta la descrizione del mio lavoro che ho
+                fatto durante la BFH
+              </p>
+            </div>
+          </div>
+          <div class="content">
+            <div class="titolo">secondo progetto</div>
+            <div class="descrizione">
+              <p>
+                Qui devo scrivere tutta la descrizione del mio lavoro che ho
+                fatto durante la BFH
+              </p>
+            </div>
+          </div>
+          <div class="content">
+            <div class="titolo">terzo progetto</div>
+            <div class="descrizione">
+              <p>
+                Qui devo scrivere tutta la descrizione del mio lavoro che ho
+                fatto durante la BFH
+              </p>
+            </div>
+          </div>
+          <div class="content">
+            <div class="titolo">quarto progetto</div>
+            <div class="descrizione">
+              <p>
+                Qui devo scrivere tutta la descrizione del mio lavoro che ho
+                fatto durante la BFH
+              </p>
+            </div>
+          </div>
+        </div>
+        <script>
+          const accordion = document.getElementsByClassName("content");
+
+          for (i = 0; i < accordion.length; i++) {
+            accordion[i].addEventListener("click", function () {
+              this.classList.toggle("active");
+            });
+          }
+        </script>
+
         <div id="first_section_particles" class="snowflakes" aria-hidden="true">
           <div class="snowflake flower">❁</div>
           <div class="snowflake flower">❁</div>
@@ -237,6 +293,7 @@
         </div>
       </div>
     </div>
+
     <script
       src="https://code.jquery.com/jquery-3.6.1.min.js"
       integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ="
