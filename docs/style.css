@@ -137,11 +137,21 @@ li + li {
   overflow: hidden;
   border: 2px solid #000;
 }
+h2.test {
+}
 .second_section {
   padding-top: 30px;
 }
 .third_section {
   padding-top: 50px;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 100%;
+}
+.skills_section {
+  display: inline-block;
+  width: 40%;
+  margin: 0 2.5%;
 }
 
 .container h2 {
@@ -398,9 +408,16 @@ li + li {
   font-size: 2em;
   width: 170px;
   color: rgb(255, 255, 255);
-  margin: 401px 1230px 50;
   padding: 3px 9px 2px;
-  position: absolute;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
+.icons a {
+  color: pink;
+}
+.icons a:hover {
+  color: red;
 }
 a:visited {
   color: pink;
