@@ -60,9 +60,11 @@ ul {
   font-family: "Poppins", sans-serif;
 }
 li {
+  padding-top: 13px;
+  padding-left: 6px;
   display: block;
   margin-top: 0px;
-  height: 45px;
+  height: 50px;
   width: 610px;
   background: linear-gradient(45deg, #ffee54, #ff00ca);
   border-radius: 8px;
@@ -130,14 +132,18 @@ li + li {
   color: rgb(255, 255, 255);
   position: relative;
   display: flex;
-  margin: 30px 650;
+  margin: 20px 650;
   padding: 15px 10px 15px;
   background: linear-gradient(#616161 0%, #333 10%, #222);
   border-radius: 8px;
   overflow: hidden;
   border: 2px solid #000;
 }
-h2.test {
+
+h2.project_title {
+  width: 120px;
+  margin-left: 160px;
+  margin-top: -80px;
 }
 .second_section {
   padding-top: 30px;
