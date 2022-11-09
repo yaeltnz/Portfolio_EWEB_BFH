@@ -68,15 +68,16 @@ a:hover {
 }
 
 .Work {
-  padding-top: 50px;
+  padding-top: 10px;
 }
 .description {
   width: 700px;
   color: rgb(255, 255, 255);
   position: relative;
   display: flex;
-  margin: 1px auto;
-  padding: 0px 10px 20px;
+  margin-left: 350px;
+  margin-bottom: -80px;
+  padding-top: 15px;
 }
 .description:hover li {
   opacity: 0.05;
@@ -148,19 +149,30 @@ li + li {
   justify-content: center;
   align-items: center;
 }
-
-.section h2 {
-  width: 85px;
+h2.title_work {
+  width: 229px;
   color: rgb(255, 255, 255);
   position: relative;
   display: flex;
-  margin: 20px 630;
-  padding: 15px 10px 15px;
+  margin: 15px 570 0px;
+  padding: 15px 16px 15px;
   background: linear-gradient(#616161 0%, #333 10%, #222);
   border-radius: 8px;
   overflow: hidden;
   border: 2px solid #000;
 }
+/*.section h2 {
+  width: 85px;
+  color: rgb(255, 255, 255);
+  position: relative;
+  display: flex;
+  margin: 20px 630 20px;
+  padding: 15px 10px 15px;
+  background: linear-gradient(#616161 0%, #333 10%, #222);
+  border-radius: 8px;
+  overflow: hidden;
+  border: 2px solid #000;
+}*/
 .second_section {
   padding-top: 30px;
 }
@@ -305,6 +317,16 @@ h2.project_title {
   width: 120px;
   margin-left: 170px;
   margin-top: -90px;
+  margin-bottom: 25px;
+  width: 115px;
+  color: rgb(255, 255, 255);
+  position: relative;
+  display: flex;
+  padding: 15px 10px 15px;
+  background: linear-gradient(#616161 0%, #333 10%, #222);
+  border-radius: 8px;
+  overflow: hidden;
+  border: 2px solid #000;
 }
 .project {
   padding-top: 165px;
