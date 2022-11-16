@@ -75,7 +75,7 @@ a:hover {
   color: rgb(255, 255, 255);
   position: relative;
   display: flex;
-  margin-left: 350px;
+  margin-left: 430px;
   margin-bottom: -80px;
   padding-top: 15px;
 }
@@ -154,7 +154,7 @@ h2.title_work {
   color: rgb(255, 255, 255);
   position: relative;
   display: flex;
-  margin: 15px 570 0px;
+  margin: 15px 650 0px;
   padding: 15px 16px 15px;
   background: linear-gradient(#616161 0%, #333 10%, #222);
   border-radius: 8px;
@@ -185,7 +185,8 @@ h2.title_work {
 .skills_section {
   display: inline-block;
   width: 40%;
-  margin: 0 2.5%;
+  margin: 0 60 2.5%;
+  align-items: center;
 }
 
 .container h2 {
@@ -334,7 +335,7 @@ h2.project_title {
   padding-right: 50px;
   max-width: 1000px;
   width: 750cm;
-  margin-left: -30px;
+  margin-left: 70px;
 }
 .project .content {
   position: relative;
