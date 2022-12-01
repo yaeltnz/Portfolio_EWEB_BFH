@@ -15,7 +15,7 @@
 
 #### third block
 - Contains information about my further education
-- 
+
 #### last block
 - List of all the projects I have done and the links to them
 
