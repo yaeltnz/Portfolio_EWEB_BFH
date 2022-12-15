@@ -1,35 +1,39 @@
-# Portfolio_EWEB_BFH
+# Portfolio EWEB BFH
 
-### **_ English _**
+ ## **English**
 
-Description of the project
+ ### About
+ - Personal portfolio page with the topic "the 4 seasons" (spring, summer, autumn and winter)
+ - In each section you will find important information
+ - All sections were hand-drawn by me. The drawings were uploaded in the folder "Bilder"
 
-Personal portfolio with "The 4 Seasons" theme including spring, summer, fall and winter
+ #### first block
+ - Picture of me with a short description about me, as well as external content about social networks, GitHub, etc.
 
-Important information will be added to each of these sections.
+ #### second block
+ - Information about my work experience and learned skills
 
-In the first block there will be the person's image with a brief description and external content (social, GitHub, ect.)
-The second block will include work experience and Skills learned
+ #### third block
+ - Contains information about my further education
+ 
+ #### last block
+ - List of all the projects I have done and the links to them
 
-In the third section, on the other hand, information from schooling will be entered
+ ## **Deutsch**
 
-Finally, the last block will put the projects performed and their respective external links.
+ ### About
+ - Persönliche Portfolioseite mit dem Thema "die 4 Jahreszeiten" (Frühling, Sommer, Herbst und Winter)
+ - In jedem Abschnitt findet man wichige Informationen
+ - Alle Abschnitte wurden von mir handgezeichnet. Die Zeichnungen wurden im Ordner "Bilder" hochgeladen
 
-All sections were hand-drawn by the author. The drawings have been uploaded to the "Pictures" folder.
+ #### erster Block
+ - Bild von mir mit einer kurzen Beschreibung zu mir, sowie externe Inhalte zu sozialen Netzwerken, GitHub, etc.
 
-### **_ Deutsch_**
+ #### zweiter Block
+ - Informationen zu meinen Berufserfahrungen und erlernten Fähigkeiten
 
-Beschreibung des Projekts
+ #### dritter Block
+ - Enthält Informationen zu meinen Aus- und Weiterbildungen
 
-Persönliches Portfolio mit dem Thema "Die 4 Jahreszeiten", einschließlich Frühling, Sommer, Herbst und Winter
-
-Zu jedem dieser Abschnitte werden wichtige Informationen hinzugefügt.
-
-Im ersten Block befindet sich das Bild der Person mit einer kurzen Beschreibung und externen Inhalten (soziale Netzwerke, GitHub, etc.)
-Der zweite Block enthält Berufserfahrung und erlernte Fähigkeiten
-
-Im dritten Block werden Informationen über die Schulbildung eingetragen.
-
-Im letzten Block schließlich werden die durchgeführten Projekte und die entsprechenden externen Links aufgeführt.
-
-Alle Abschnitte wurden von der Autorin handgezeichnet. Die Zeichnungen wurden in den Ordner "Bilder" hochgeladen.
+ #### letzer Block
+ - Aufzählung aller von mir duchgeführten Projekten und die enstprechenden Links dazu
